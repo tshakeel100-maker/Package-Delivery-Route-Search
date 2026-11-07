@@ -79,6 +79,3 @@ The program uses BFS to find the shortest routes. Since the graph is unweighted,
 Question 2 checks both possible orders for visiting the required centers. Question 4 compares the distances from the three starting centers to find the best transfer center.
 
 Question 3 uses BFS with a bitmask to keep track of visited centers. Since this takes more memory as the number of centers increases, the program only supports up to 20 reachable centers for this operation.
-
-DATASET NOTE
-The included datasets are sample files used for testing. If the instructor provided a separate dataset, it can be used instead.
