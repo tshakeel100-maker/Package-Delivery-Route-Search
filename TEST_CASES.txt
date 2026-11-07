@@ -1,0 +1,38 @@
+Project 3 - Suggested Test Cases
+
+1. Question 1
+   Dataset: tests/q1_routes.txt
+   Enter menu option 1; start A; destination D; x = 3.
+   Expected: A -> B -> D, 2 connections.
+   Repeat with x = 2. Expected: no qualifying route because 2 is not
+   fewer than 2.
+
+2. Question 2
+   Dataset: tests/q2_routes.txt
+   Enter menu option 2; start A; destination D; required centers B and C.
+   Expected: a shortest route visiting both B and C, such as
+   A -> B -> C -> D, 3 connections (or an equally short valid route).
+
+3. Question 3
+   Dataset: tests/q3_routes.txt
+   Enter menu option 3; start A.
+   Expected: a shortest closed walk starting and ending at A that visits
+   A, B, C, and D. The program calculates the exact shortest walk.
+
+4. Question 4
+   Dataset: tests/q4_routes.txt
+   Enter menu option 4; origins A, B, and C.
+   Expected: transfer center X. Routes: A -> X; B -> X; C -> Y -> X.
+   Total: 4 connections.
+
+5. No-route behavior
+   Dataset: tests/no_route.txt
+   Question 1: A to X. Expected: no route.
+   Question 4: origins A, B, and X. Expected: no common different transfer
+   center reachable from all three.
+   Question 3: start A. Expected: visit the reachable component A-B-C and
+   return to A; centers X, Y, and Z are outside A's reachable component.
+
+6. Input handling
+   Try an unknown center name and a missing input-file path. The program
+   should display a clear no-route or file-open error message.

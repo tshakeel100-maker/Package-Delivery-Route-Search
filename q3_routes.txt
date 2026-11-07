@@ -1,0 +1,6 @@
+# Q3: connected graph; shortest covering round trip
+A B
+B C
+C D
+D A
+A C

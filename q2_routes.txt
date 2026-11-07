@@ -1,0 +1,6 @@
+# Q2: visit B and C between A and D
+A B
+B C
+C D
+A C
+B D

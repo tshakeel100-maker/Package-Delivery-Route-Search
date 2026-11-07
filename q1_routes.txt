@@ -1,0 +1,6 @@
+# Q1: shortest A-to-D route is A-B-D (2 connections)
+A B
+B D
+A C
+C E
+E D

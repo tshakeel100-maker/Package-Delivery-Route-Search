@@ -1,0 +1,5 @@
+# Two disconnected components
+A B
+B C
+X Y
+Y Z

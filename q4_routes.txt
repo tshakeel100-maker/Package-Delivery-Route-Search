@@ -1,0 +1,6 @@
+# Q4: best transfer center for origins A, B, C is X
+A X
+B X
+C X
+X P
+P Q
