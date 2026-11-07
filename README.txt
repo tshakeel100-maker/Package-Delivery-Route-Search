@@ -1,6 +1,6 @@
 Project 3: Package Delivery Route Search
 
-Team Members: Averi Giles and Tooba Shakeel
+Team Members: Tooba Shakeel and Averi Giles
 
 DESCRIPTION
 This program uses a graph to represent distribution centers and the routes connecting them. It uses an adjacency list and Breadth-First Search (BFS) to find the shortest routes between centers based on the number of connections.
